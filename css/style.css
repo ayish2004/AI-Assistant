@@ -1,0 +1,201 @@
+
+*{
+   margin:0;
+   padding:0;
+   box-sizing:border-box;
+   font-family:"sofia pro";
+    overflow-x:hidden;
+}
+body{ 
+    background-color:whitesmoke;
+    color:black;
+    width:100%;
+}
+nav{
+    width:90%;
+    height:3rem;
+    margin:1rem 5rem;
+    position: fixed;
+    background-color:whitesmoke;
+    border:1px solid black;
+    border-radius:50px;
+}
+nav ul{
+    list-style-type: none;
+    display:flex;
+}
+nav ul li{
+    text-transform: capitalize;  
+    margin-top:10px;
+}
+nav ul li a{
+    text-decoration:none;
+    padding:0 20px;
+    border-right:1px solid black;
+    color: black;
+}
+nav ul li a:hover{
+    color:blueviolet;
+}
+nav ul #contact-nav{
+    margin-left: auto;
+    background-color:black;
+    padding:13.5px;
+    margin-top:0px;
+}
+nav ul #contact-nav a{
+    color:white;
+}
+nav ul #contact-nav a:hover{
+    color:blue;
+    font-weight:600;
+}
+.content{
+    height:auto;
+    width:100%;
+    margin-top:6rem;
+}
+#hero{
+    width:auto;
+    height:100vh;
+}
+#hero h1{
+    font-size:6rem;
+    line-height:7.5rem;
+    padding-left:1rem;
+    text-transform: uppercase;
+}
+
+#achievements{
+    min-height:100vh;
+    width:100rem;
+    padding:0rem 2rem;
+    padding-top:5rem;
+}
+#achievements h1{
+    font-size:2.5rem;
+    padding-left:1rem;
+}
+#achievements .achievement-container{
+    overflow-x:scroll;
+    display: flex;
+}
+#achievements .achievement-container::-webkit-scrollbar{
+    display:none;
+}
+
+#achievements .achievement-container .achievement-div{
+    background-color: rgb(197, 153, 239);
+    color:black;
+    min-height:400px;
+    min-width:500px;
+    border-radius:30px;
+    padding:1rem 2rem;
+    margin:1rem;
+}
+#footer{
+    background-color:black;
+    color:white;
+    padding:5rem;
+}
+#creations{
+    width:100%;
+    min-height:100vh;
+    background-color:black;
+    color:white;
+    padding-top:5rem;}
+#creations h1{
+    font-size:45px;
+    font-weight:200;
+    padding-bottom:1rem;
+    padding-left:2.5rem;
+}
+#creations .creation-container{
+    display:flex;
+    overflow-x:scroll;
+    padding:0px 15px;
+    padding-left:3rem;
+}
+#creations .creation-container::-webkit-scrollbar{
+    display: none;
+}
+#creations .creation-div{
+    border:1px solid white;
+    border-radius:20px;
+    height:auto;
+    min-width:740px;
+    padding:20px;
+    margin-right:20px;
+}
+#creations img{
+    width:700px;
+    height:400px;
+}
+#creations .creation-topic{
+    font-size:20px;
+}
+#creations .creation-head{
+    font-size:30px;
+}
+#creations .skills{
+    display:flex;
+}
+#creations .skills li{
+    display:flex;
+    border:1px solid #fff;
+    padding:5px 10px;
+    border-radius:25px;
+    margin-right:8px;
+}
+#creations .skill-topic{
+    height:5px;
+    width: 5px;
+    border-radius:5px;
+    margin-top:6px;
+    margin-right:6px;
+}
+#creations .skill-backend{
+    background-color:yellowgreen;
+}
+#creations .skill-frontend{
+    background-color: blueviolet;
+}
+#creations .skill-design{
+    background-color:maroon;
+}
+#creations .skill-frameworks{
+    background-color: forestgreen;
+}
+.quick-footer-cta{
+    border-top:1px solid gray;
+    border-bottom:1px solid gray;
+    margin:2rem 0rem;
+    display:flex;
+}
+.quick-footer-cta .quick-social{
+    display: flex;
+    margin-left:auto;
+    list-style-type: none;
+    padding:1rem 0rem;
+
+}
+.quick-footer-cta .quick-social li{
+    padding-right:25px;
+}
+.quick-footer-cta .quick-social li img{
+    height:20px;
+    width:20px;
+}
+.quick-footer-cta .quick-social li img:hover{
+    transform:translateY(10px);
+}
+#faq{
+    background-color:black;
+    color:white;
+}
+.faq-div{
+    border-bottom:1px solid grey;
+    margin:0rem 6rem;
+    padding:1rem 0rem;
+
+}
